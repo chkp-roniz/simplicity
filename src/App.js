@@ -8,7 +8,7 @@ import Cloud from './pages/cloud/Cloud';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/simplicity">
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="welcome" element={<Welcome />} />
