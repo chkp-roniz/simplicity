@@ -21,7 +21,7 @@ const OnPremis = () => {
             'CONSOLE' in the device. The other end, please connect to your
             computer.
           </p>
-          <img src="/connect.png" alt="connect" />
+          <img src={`${process.env.PUBLIC_URL}/connect.png`} alt="connect" />
           <p>
             Once connected, open the following link in your personal computer:
           </p>
@@ -31,7 +31,7 @@ const OnPremis = () => {
               title="Copy Command to Clipboard"
             >
               <span role="button" tabIndex="0">
-                ${`${process.env.PUBLIC_URL}/first-time-wizard`}
+                Share First Time Wizard URL
               </span>
             </code>
             <svg

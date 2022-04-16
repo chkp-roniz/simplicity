@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 import Welcome from './pages/welcome/Welcome';
 import SetupSelector from './pages/setup/Setup';
@@ -8,16 +8,16 @@ import Cloud from './pages/cloud/Cloud';
 
 function App() {
   return (
-    <BrowserRouter basename="/simplicity">
-      <Routes>
+    <Router>
+	  <Routes>
         <Route path="/" element={<Welcome />} />
-        <Route path="welcome" element={<Welcome />} />
-        <Route path="select-setup" element={<SetupSelector />} />
-        <Route path="cloud-mgmt" element={<Cloud />} />
-        <Route path="on-prem-mgmt" element={<OnPremis />} />
+        <Route path="/welcome" element={<Welcome />} />
+        <Route path="/select-setup" element={<SetupSelector />} />
+        <Route path="/cloud-mgmt" element={<Cloud />} />
+        <Route path="/on-prem-mgmt" element={<OnPremis />} />
         {/* <Route path="invoices" element={<Invoices />} /> */}
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

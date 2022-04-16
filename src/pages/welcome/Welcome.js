@@ -27,7 +27,7 @@ const Welcome = () => {
           </p>
           <form
             class="login-form"
-            action="/select-setup"
+            action="#/select-setup"
             style={{ alignItems: 'center' }}
           >
             <footer>

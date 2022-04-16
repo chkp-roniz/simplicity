@@ -21,7 +21,7 @@ const SetupSelector = () => {
           <form
             class="login-form"
             style={{ alignItems: 'center' }}
-            action="/cloud-mgmt"
+            action="#/cloud-mgmt"
           >
             <footer>
               <button type="submit" style={{ borderRadius: 25, width: 250 }}>
@@ -35,7 +35,7 @@ const SetupSelector = () => {
           <form
             class="login-form"
             style={{ alignItems: 'center' }}
-            action="/on-prem-mgmt"
+            action="#/on-prem-mgmt"
           >
             <footer>
               <button type="submit" style={{ borderRadius: 25, width: 250 }}>
