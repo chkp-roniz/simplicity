@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "https://chkp-roniz.github.io/simplicity/static/css/main.9c2a1a46.css",
-    "main.js": "https://chkp-roniz.github.io/simplicity/static/js/main.1e23b50a.js",
+    "main.js": "https://chkp-roniz.github.io/simplicity/static/js/main.e6bab94e.js",
     "static/js/787.67598fd5.chunk.js": "https://chkp-roniz.github.io/simplicity/static/js/787.67598fd5.chunk.js",
     "static/media/figure.svg": "https://chkp-roniz.github.io/simplicity/static/media/figure.7182d6fb70c72f7545162d3d13eca335.svg",
     "index.html": "https://chkp-roniz.github.io/simplicity/index.html",
     "main.9c2a1a46.css.map": "https://chkp-roniz.github.io/simplicity/static/css/main.9c2a1a46.css.map",
-    "main.1e23b50a.js.map": "https://chkp-roniz.github.io/simplicity/static/js/main.1e23b50a.js.map",
+    "main.e6bab94e.js.map": "https://chkp-roniz.github.io/simplicity/static/js/main.e6bab94e.js.map",
     "787.67598fd5.chunk.js.map": "https://chkp-roniz.github.io/simplicity/static/js/787.67598fd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c2a1a46.css",
-    "static/js/main.1e23b50a.js"
+    "static/js/main.e6bab94e.js"
   ]
 }
